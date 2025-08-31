@@ -28,7 +28,7 @@ const SweperProductCard = ({product}) => {
           >
             {/* Product Image Section */}
 
-<div className="relative w-full h-64 bg-[#D6D6D6] overflow-hidden rounded-sm">
+<div className="relative w-full h-74 bg-[#D6D6D6] overflow-hidden rounded-sm">
   {/* Icons */}
   <div className="card_icons">
     <div className="absolute text-xl top-3 right-3 p-2 rounded-full cursor-pointer hover:scale-105 transition-transform">

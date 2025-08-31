@@ -69,3 +69,12 @@
   opacity: 0.5;
   cursor: not-allowed;
 }
+
+
+@media (min-width : 570px) and (max-width : 640px) {
+     .product-listing-page{
+          @apply px-12
+     }
+     .footer_logo { @apply pl-12}
+     .footer_list { @apply px-12}
+}

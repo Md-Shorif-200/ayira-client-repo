@@ -24,18 +24,19 @@ const ProductCard = ({ product, viewType }) => {
     return (
       <Link to={'/product-details'}
         key={product.id}
-        className="w-full h-[280px] bg-white rounded-sm overflow-hidden shadow-sm flex gap-6 p-4"
+        className="w-full  bg-white rounded-sm overflow-hidden shadow-sm md:flex gap-6 p-4"
       >
         {/* Product Image Section */}
-        <Link to={'/product-details'} className="w-1/4 flex-shrink-0">
-          <div className="w-full h-full bg-[#D6D6D6] rounded-sm" />
-        </Link>
+        <div to={'/product-details'} className="md:w-2/5 flex-shrink-0">
+          <div className="w-full h-[250px] sm:h-[280px] md:h-full bg-[#D6D6D6] rounded-sm" />
+        </div>
 
         {/* Product Details Section */}
-        <div className="w-1/2 flex flex-col">
-          <Link to={'/product-details'}>
-            <h3 className="text-xl font-bold text-gray-800 mb-2 hover:text-[#ffbb42] transition-colors">{product.title}</h3>
-          </Link>
+            <div className="details">
+                  <div className=" flex flex-col">
+          <div to={'/product-details '}>
+            <h3 className="text-xl font-bold text-gray-800 mb-2 hover:text-[#ffbb42] transition-colors my-6 md:my-0">{product.title}</h3>
+          </div>
           <div className="flex items-center text-xs mb-3">
             <div className="flex">{renderStars(product.rating)}</div>
             <span className="ml-2 text-gray-500">({product.reviews})</span>
@@ -55,17 +56,17 @@ const ProductCard = ({ product, viewType }) => {
         </div>
 
         {/* Actions Section */}
-        <div className="w-1/4 flex flex-col items-start justify-center pl-6 border-l border-gray-200">
+        <div className=" flex flex-col items-start justify-center   mt-6">
           <div className="flex items-baseline gap-3 mb-5">
             <p className="text-gray-400 line-through text-sm">{product.oldPrice || '$235'}</p>
             <p className="text-sm font-semibold text-gray-800">{product.price}</p>
           </div>
-          <div className="flex items-center gap-2 mb-5 w-full">
-            <button className="bg-[#ffbb42] hover:bg-yellow-500 text-black font-semibold py-2 px-4 rounded-sm flex-grow text-sm">
+          <div className="flex items-center gap-4 mb-5 ">
+            <button className="bg-[#ffbb42] hover:bg-yellow-500 text-black font-semibold py-2 px-2 lg:px-4 rounded-sm flex-grow text-base cursor-pointer">
               Add to cart
             </button>
-            <button className="p-3 bg-gray-100 border border-gray-200 rounded-sm hover:bg-gray-200">
-              <FaRegHeart className="text-xl" />
+            <button className="p-3 bg-gray-100 border border-gray-200 rounded-sm hover:bg-gray-200 cursor-pointer">
+              <FaRegHeart className="text-sm" />
             </button>
           </div>
           <button className="flex items-center gap-2 text-gray-600 hover:text-black text-sm">
@@ -73,6 +74,7 @@ const ProductCard = ({ product, viewType }) => {
             <span>Compare</span>
           </button>
         </div>
+            </div>
       </Link>
     );
   }

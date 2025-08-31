@@ -3,14 +3,12 @@ import ReactPaginate from "react-paginate";
 import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
 import ProductCard from "./ProductCard";
 
-const ProductList = ({viewType}) => {
+const ProductList = ({ viewType }) => {
   const [products, setProducts] = useState([]);
-
-
-
-
+  
+  // cardsPerPage ডাইনামিকভাবে নির্ধারণ করা হচ্ছে
+  const cardsPerPage = viewType === "list" ? 5 : 12;
   const [currentPage, setCurrentPage] = useState(0);
-  const cardsPerPage = 12;
 
   useEffect(() => {
     fetch("/products.json")
@@ -22,11 +20,9 @@ const ProductList = ({viewType}) => {
       })
       .then((data) => {
         setProducts(data);
-        setLoading(false);
       })
       .catch((err) => {
-        setError(err.message);
-        setLoading(false);
+        console.error(err.message);
       });
   }, []);
 
@@ -38,12 +34,16 @@ const ProductList = ({viewType}) => {
     setCurrentPage(data.selected);
   };
 
-
-
   return (
     <div className="container mx-auto py-6">
-      {/* Product Grid */}
-      <div className={`grid  gap-10  ${viewType === 'grid' ? " grid-cols-1 sm:grid-cols-2 md:grid-cols-3" : "grid-cols-1"}  `}>
+      {/* Product Grid/List */}
+      <div
+        className={`grid gap-10 lg:gap-4 xl:gap-8 ${
+          viewType === "grid"
+            ? "grid-cols-1 sm:grid-cols-2 lg:grid-cols-3"
+            : "grid-cols-1"
+        }`}
+      >
         {currentPageProducts.map((product) => (
           <ProductCard key={product.id} product={product} viewType={viewType} />
         ))}
@@ -59,9 +59,9 @@ const ProductList = ({viewType}) => {
           marginPagesDisplayed={2}
           pageRangeDisplayed={3}
           onPageChange={handlePageClick}
-          forcePage={currentPage}  // keeps the UI synced with state
+          forcePage={currentPage}
           containerClassName="flex items-center gap-2 px-4 py-2 bg-gray-100 rounded-lg shadow-md"
-          pageLinkClassName="px-3 py-1 border border-gray-300 rounded-md hover:bg-gray-200 transition"
+          pageLinkClassName="px-3 py-1 border border-gray-300 rounded-md hover:bg-gray-200 transition cursor-pointer"
           activeLinkClassName="bg-[#ffbb42] text-white border-[#ffbb42] font-semibold"
           previousClassName="cursor-pointer"
           nextClassName="cursor-pointer"

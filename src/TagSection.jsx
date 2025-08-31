@@ -24,7 +24,7 @@ const TagsSection = () => {
         {tags.map((tag, index) => (
           <span
             key={index}
-            className="px-4 py-2 border border-gray-300 rounded-md text-gray-700 text-sm cursor-pointer hover:bg-gray-100 transition-colors duration-200"
+            className="p-2 border border-gray-300 rounded-md text-gray-700 text-sm cursor-pointer hover:bg-gray-100 transition-colors duration-200"
           >
             {tag}
           </span>

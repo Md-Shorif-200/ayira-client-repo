@@ -14,13 +14,14 @@ import { MdEmail } from "react-icons/md";
 import appstore_img from "../public/app-stor.webp";
 import googlePlay_img from "../public/google-play.webp";
 import payment_img from "../public/payment.webp";
+// px-6 sm:px-14 md:px-24 lg:px-8 xl:px-20
 
 const Footer = () => {
   return (
     <footer className="">
       <div className=" w-full md:flex flex-wrap">
         {/* Ayira Logo & Contact Info Section */}
-        <div className="bg-[#EFEFEF] w-full lg:w-[30%] py-14 pl-4 sm:pl-8 md:pl-12 lg:pl-16 xl:pl-20">
+        <div className="bg-[#EFEFEF] footer_logo w-full lg:w-[27%] py-14 pl-6 sm:pl-14  lg:pl-8 xl:pl-[90px]">
           <img src={logo} alt="Ayira Logo" className="w-24 h-auto " />
           <h3 className="text-[16px] font-semibold sub_title_color my-5 uppercase">
             QUESTION OR FEEDBACK?
@@ -42,7 +43,7 @@ const Footer = () => {
         </div>
 
         {/* --------footer list */}
-        <div className="footer_list w-full lg:w-[70%]  bg-[#F6F6F6] grid grid-cols-3 gap-10 py-14 px-2 sm:px-4 md:px-6 lg:px-8 xl:px-10">
+        <div className="footer_list w-full lg:w-[72%]  bg-[#F6F6F6] grid grid-cols-3 gap-10 py-14 px-6 sm:px-14  lg:px-8 xl:px-8">
           {/* Company Section */}
           <div className="">
             {/* Title */}

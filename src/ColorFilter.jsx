@@ -32,7 +32,7 @@ const ColorFilter = () => {
         </div>
       </div>
 
-      <div className="grid grid-cols-6 gap-1">
+      <div className="flex flex-wrap gap-1">
         {colors.map((color, index) => (
           <div
             key={index}

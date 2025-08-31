@@ -358,5 +358,77 @@
     "rating": 5.0,
     "reviews": 12,
     "colors": ["#4E342E", "#D7CCC8"]
+  },{
+    "id": 41,
+    "image": "https://i.ibb.co.com/F4XfykPw/images-17.jpg",
+    "title": "Printed maxi dress",
+    "price": "$195.00",
+    "rating": 4.0,
+    "reviews": 48,
+    "colors": ["#4CAF50", "#FFEB3B"]
+  },
+  {
+    "id": 42,
+    "image": "https://i.ibb.co.com/GvL5d8WT/images-16.jpg",
+    "title": "Slim fit jeans",
+    "price": "$65.00",
+    "rating": 4.5,
+    "reviews": 230,
+    "colors": ["#2196F3", "#607D8B"]
+  },
+  {
+    "id": 43,
+    "image": "https://i.ibb.co.com/jkZJDVP8/download-13.jpg",
+    "title": "Striped polo shirt",
+    "price": "$40.00",
+    "rating": 4.0,
+    "reviews": 180,
+    "colors": ["#FFC107", "#009688"]
+  },
+  {
+    "id": 44,
+    "image": "https://i.ibb.co.com/v6Nxdsm4/download-12.jpg",
+    "title": "Hooded sweatshirt",
+    "price": "$70.00",
+    "rating": 4.5,
+    "reviews": 150,
+    "colors": ["#5D4037", "#9E9E9E"]
+  },
+  {
+    "id": 45,
+    "image": "https://i.ibb.co.com/MDwHJn67/images-15.jpg",
+    "title": "Summer shorts",
+    "price": "$30.00",
+    "rating": 4.0,
+    "reviews": 99,
+    "colors": ["#CDDC39", "#4CAF50"]
+  },
+  {
+    "id": 46,
+    "image": "https://i.ibb.co.com/tTWnbgYz/images-14.jpg",
+    "title": "High-heeled sandals",
+    "price": "$85.00",
+    "rating": 4.5,
+    "reviews": 55,
+    "colors": ["#E91E63", "#FF8A65"]
+  },
+  {
+    "id": 47,
+    "image": "https://i.ibb.co.com/nN9SvHgh/images-13.jpg",
+    "title": "Classic trench coat",
+    "price": "$250.00",
+    "rating": 5.0,
+    "reviews": 32,
+    "colors": ["#A1887F", "#F5F5DC"]
+  },
+  {
+    "id": 48,
+    "image": "https://i.ibb.co.com/B2wPp7cR/images-12.jpg",
+    "title": "Sporty track suit",
+    "price": "$110.00",
+    "rating": 4.5,
+    "reviews": 68,
+    "colors": ["#000000", "#FF5722"]
   }
+
 ]

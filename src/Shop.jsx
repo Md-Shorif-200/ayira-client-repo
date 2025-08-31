@@ -9,7 +9,7 @@ import ColorFilter from "./ColorFilter";
 import SizeFilter from "./SizeFilter";
 import TagsSection from "./TagSection";
 import ProductList from "./ProductList";
-import SingleProductSweper from "./SingleProductSweper";
+import ShopProductSweper from "./ShopProductSweper";
 
 const Shop = () => {
 
@@ -20,7 +20,7 @@ const Shop = () => {
     <section className="products_shop  ">
       {/* shop banner */}
       <div
-        className="shop_banner w-full h-[300px] bg-black/30 flex justify-center items-center"
+        className="shop_banner w-full h-[300px] bg-black/30 flex justify-center items-center "
         style={{
           backgroundImage: `url(${shop_banner_img})`,
           backgroundRepeat: "no-repeat",
@@ -41,25 +41,25 @@ const Shop = () => {
       </div>
 
       {/* products listing page */}
-      <div className="product-listing-page my-12 xl:flex gap-10 px-4 sm:px-8 md:px-12 lg:px-16 xl:px-20">
+      <div className="product-listing-page m lg:flex gap-10 lg:gap-6 px-6 sm:px-14  lg:px-8 xl:px-20 py-14 ">
         {/*---------------- sidebar-filters */}
-        <div className="sidebar-filters w-full grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:block  gap-6 xl:gap-0 xl:w-[25%] ">
+        <div className="sidebar-filters w-full grid grid-cols-1   gap-6 xl:gap-0 lg:block lg:w-[25%] ">
           <CategoryFilter></CategoryFilter>
             <BrandCheckbox></BrandCheckbox>
              <PriceRangeSlider></PriceRangeSlider>
               <ColorFilter></ColorFilter>
-                  <div className="col-span-2 md:col-span-1">
-                        <SizeFilter ></SizeFilter>
-                  </div>
+                  {/* <div className="col-span-2 md:col-span-1">
+                  </div> */}
+                  <SizeFilter ></SizeFilter>
               <TagsSection></TagsSection>
-              <div className="hidden xl:block">
-                 <SingleProductSweper></SingleProductSweper>
-              </div>
+              {/* <div className="hidden lg:block">
+              </div> */}
+              <ShopProductSweper></ShopProductSweper>
              
         </div>
 
         {/* --------------- product-listing-content */}
-        <div className="product-listing-content w-full xl:w-[73%] ">
+        <div className="product-listing-content w-full lg:w-[75%]  lg:p-0 ">
           {/* view and sort  */}
           <div className="sm:flex justify-between my-8 sm:my-0">
                     {/* view button */}
@@ -108,7 +108,7 @@ const Shop = () => {
               </div>
 
               {/* ------ */}
-              <div class="text-block-container max-w-4xl mx-auto px-4 py-8 text-gray-700">
+              <div class="text-block-container max-w-4xl mx-auto py-8 text-gray-700">
   <div class="paragraph-section mb-8">
     <p>
       Phasellus placerat orci tincidunt dui facilisis vehicula. <span class="font-bold">Etiam lobortis venenatis odio a pulvinar.</span> Donec laoreet vulputate eros, nec scelerisque tortor rutrum non. Morbi dapibus massa id sem dignissim, vel aliquam nunc vulputate. Etiam imperdiet arcu scelerisque nulla egestas posuere. Cras quis congue felis. Quisque dictum auctor nulla, sed tempor tortor aliquet vitae. Sed congue hendrerit ex nec laoreet. <span class="highlight-text bg-black text-white px-2 py-1 font-bold">Nullam quis iaculis ex, in ullamcorper quam.</span> Sed et ullamcorper magna, tempus posuere justo. Vestibulum luctus sagittis ante id malesuada. Vestibulum pretium convallis porttitor.
