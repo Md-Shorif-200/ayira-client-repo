@@ -1,0 +1,71 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+
+*{
+     /* outline:  1px solid green; */
+}
+
+
+.primary_text {
+     @apply text-[#ffbb42]
+}
+
+.primary_bg {
+     @apply bg-[#ffbb42]
+}
+
+.sub_title_color {
+     @apply text-[#262626]
+}
+
+.paragrap {
+     @apply text-[#777777]
+}
+
+.product_card:hover .loop_icon{
+     @apply block transition-all
+}
+
+.product_card:hover .search_icon {
+     @apply block transition-all
+}
+
+.product_card:hover .shoping_cart_btn{
+
+     @apply opacity-100
+
+}
+
+
+.product_card:hover .product_price {
+      @apply opacity-0
+}
+
+
+.pagination {
+  display: flex;
+  list-style: none;
+  gap: 8px;
+}
+
+.page-item {
+  padding: 6px 12px;
+  background: #f3f3f3;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.page-item:hover {
+  background: #ddd;
+}
+
+.active {
+  background: #007bff;
+  color: white;
+}
+
+.disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
