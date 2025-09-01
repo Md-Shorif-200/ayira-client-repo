@@ -57,7 +57,6 @@ const PriceRangeSlider = ({ min = 100, max = 500, step = 1, onChange }) => {
         )}
       />
 
-      {/* 3 & 4. প্রাইস ডিসপ্লে এবং ফিল্টার বাটন যুক্ত করা হয়েছে */}
       <div className="flex justify-between items-center mt-4">
         <div className="text-base font-semibold text-black pr-3">
           Price: 

@@ -8,6 +8,9 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import ProductDetails from './ProductDetails/ProductDetails.jsx';
+import LogIn from './Authentication/LogIn.jsx';
+import Register from './Authentication/Register.jsx';
+import ProductCompare from './ProductCompare/ProductCompare.jsx';
 
 const router = createBrowserRouter([
   {
@@ -17,6 +20,18 @@ const router = createBrowserRouter([
   {
     path : '/product-details',
     element : <ProductDetails></ProductDetails>
+  },
+  {
+    path : 'log-in',
+    element : <LogIn></LogIn>
+  },
+  {
+    path : '/register',
+    element : <Register></Register>
+  },
+  {
+    path : '/product-compare',
+    element : <ProductCompare></ProductCompare>
   }
 ]);
 
