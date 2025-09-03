@@ -18,9 +18,9 @@ const Colours = () => {
         backgroundImage={banner_img}
       ></CommonBanner>
       {/* color card  */}
-      <div className="lg:px-32">
-        <div className="color_card w-full flex gap-10 bg-white shadow-lg p-8 mt-10 mb-20">
-          <div className="section_cnt  w-[60%] pr-16">
+      <div className="px-4 sm:px-10 md:px-16 py-6 lg:px-32">
+        <div className="color_card w-full xl:flex gap-10 bg-white shadow-lg p-8  lg:mt-10 mb-8 lg:mb-20">
+          <div className="section_cnt w-full xl:w-[60%] xl:pr-16">
             <h2 className="text-xl capitalize font-semibold mb-8">
               Unlimited Customized Color Possibilities
             </h2>
@@ -48,12 +48,12 @@ const Colours = () => {
             </div>
           </div>
 
-          <div className="colours_card_img   w-[40%] h-[300px] relative">
+          <div className="colours_card_img w-full    xl:w-[40%] h-[300px] relative">
             <img
               src="https://i.ibb.co/cKyVZSNm/colour-Photo.webp"
               alt="Banner Image"
               fill
-              className="object-cover rounded-lg"
+              className="object-cover sm:w-1/2 xl:w-full mx-auto rounded-lg"
             />
           </div>
         </div>

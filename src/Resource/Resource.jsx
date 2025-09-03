@@ -9,7 +9,7 @@ const Resource = () => {
       {/* banner */}
       <CommonBanner title={"resource"} breadcrumb={"resource"}></CommonBanner>
 
-      <div className="resource_cnt lg:px-32 py-16">
+      <div className="resource_cnt px-4 sm:px-10 md:px-16  lg:px-32  py-16">
         <div className="text-center">
           <h1 className="text-[40px] uppercase font-bold ">RESOURCES</h1>
           <p className="text-base capitalize text-[#777777] font-semibold my-2 ">
@@ -33,7 +33,7 @@ const Resource = () => {
         </p>
       </div>
 
-           <div className="resource_cards lg:px-32 pt-8 pb-16">
+           <div className="resource_cards px-4 sm:px-10 md:px-16  lg:px-32 pt-8 pb-16">
                     <ResourceCard></ResourceCard>
            </div>
     </div>

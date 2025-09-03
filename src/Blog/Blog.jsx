@@ -12,8 +12,8 @@ const Blog = () => {
 
       {/* --------- blog caards */}
 
-      <div className=" my-10 bg-white   overflow-hidden lg:px-32 grid grid-cols-2 ">
-        <div className="relative w-full   bg-gray-200">
+      <div className=" bg-white  grid grid-cols-1 lg:grid-cols-2 px-4 sm:px-10 md:px-16 py-6  lg:px-32 my-10 ">
+        <div className="relative w-full h-[200px] lg:h-auto   bg-gray-200">
           {/* Date Badge */}
 
           <div className="absolute top-0 left-0 bg-yellow-400 text-gray-800 text-center flex flex-col px-4 py-1">
@@ -57,7 +57,7 @@ const Blog = () => {
 
           {/* Large Background Text */}
 
-          <div className="absolute bottom-0  left-0 text-8xl font-semibold  text-[#E3E3E3] select-none pl-6">
+          <div className="absolute bottom-0  left-0 text-5xl sm:text-6xl lg:text-7xl xl:text-8xl font-semibold  text-[#E3E3E3] select-none pl-6">
             BEAUTY
           </div>
 
@@ -70,7 +70,7 @@ const Blog = () => {
       </div>
 
             {/* ---------- blog-posts */}
-             <div className="blog_posts lg:px-32">
+             <div className="blog_posts px-4 sm:px-10 md:px-16 py-6 lg:px-32">
                     <BlogPosts></BlogPosts>
              </div>
     </div>

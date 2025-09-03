@@ -104,7 +104,7 @@ const ColorCard = ({ item }) => {
 
 export default function ExclusiveColours() {
   return (
-    <main className="min-h-screen">
+    <main className="px-4 sm:px-10 md:px-16 py-6 lg:px-0">
       <section className="mx-auto max-w-7xl">
         {/* ------ title */}
         <div className="title text-center mt-8 mb-4">
@@ -117,7 +117,7 @@ export default function ExclusiveColours() {
           </p>
         </div>
 
-        <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5">
+        <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 md:grid-cols-4 xl:grid-cols-5">
           {COLORS.map((c) => (
             <ColorCard key={`${c.name}-${c.CMYK}`} item={c} />
           ))}
