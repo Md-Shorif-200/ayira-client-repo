@@ -6,7 +6,7 @@ import ProductCard from "./ProductCard";
 const ProductList = ({ viewType }) => {
   const [products, setProducts] = useState([]);
   
-  // cardsPerPage ডাইনামিকভাবে নির্ধারণ করা হচ্ছে
+  // cardsPerPage 
   const cardsPerPage = viewType === "list" ? 5 : 12;
   const [currentPage, setCurrentPage] = useState(0);
 
@@ -61,7 +61,7 @@ const ProductList = ({ viewType }) => {
           onPageChange={handlePageClick}
           forcePage={currentPage}
           containerClassName="flex items-center gap-2 px-4 py-2 bg-gray-100 rounded-lg shadow-md"
-          pageLinkClassName="px-3 py-1 border border-gray-300 rounded-md hover:bg-gray-200 transition cursor-pointer"
+          pageLinkClassName="px-3 py-1 border border-gray-300 rounded-md hover:bg-[#ffbb42] hover:text-white transition cursor-pointer"
           activeLinkClassName="bg-[#ffbb42] text-white border-[#ffbb42] font-semibold"
           previousClassName="cursor-pointer"
           nextClassName="cursor-pointer"

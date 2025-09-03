@@ -11,6 +11,8 @@ import ProductDetails from './ProductDetails/ProductDetails.jsx';
 import LogIn from './Authentication/LogIn.jsx';
 import Register from './Authentication/Register.jsx';
 import ProductCompare from './ProductCompare/ProductCompare.jsx';
+import Colours from './colours/Colours.jsx';
+import Blog from './Blog/Blog.jsx';
 
 const router = createBrowserRouter([
   {
@@ -32,6 +34,14 @@ const router = createBrowserRouter([
   {
     path : '/product-compare',
     element : <ProductCompare></ProductCompare>
+  },
+  {
+    path : 'colours',
+    element : <Colours></Colours>
+  },
+  {
+     path : 'blog',
+     element : <Blog></Blog>
   }
 ]);
 

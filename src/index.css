@@ -78,3 +78,62 @@
      .footer_logo { @apply pl-12}
      .footer_list { @apply px-12}
 }
+
+
+.product_card:hover .loop_icon{
+     @apply block transition-all
+}
+
+.product_card:hover .search_icon {
+     @apply block transition-all
+}
+
+.product_card:hover .shoping_cart_btn{
+
+     @apply opacity-100
+
+}
+
+
+.product_card:hover .product_price {
+      @apply opacity-0
+}
+
+
+.pagination {
+  display: flex;
+  list-style: none;
+  gap: 8px;
+}
+
+.page-item {
+  padding: 6px 12px;
+  background: #f3f3f3;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.page-item:hover {
+  background: #ddd;
+}
+
+.active {
+  background: #007bff;
+  color: white;
+}
+
+.disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+
+@media (min-width : 570px) and (max-width : 640px) {
+     .product-listing-page{
+          @apply px-12
+     }
+     .footer_logo { @apply pl-12}
+     .footer_list { @apply px-12}
+}
+
+
