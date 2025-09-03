@@ -14,6 +14,13 @@ import ProductCompare from './ProductCompare/ProductCompare.jsx';
 import Colours from './colours/Colours.jsx';
 import Blog from './Blog/Blog.jsx';
 import Resource from './Resource/Resource.jsx';
+import AddProducts from './Admin-Dashboard/Products/AddProducts.jsx';
+import ProductManagement from './Admin-Dashboard/Product Management/ProductManagement.jsx';
+import AllProducts from './Admin-Dashboard/Products/AllProducts.jsx';
+import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
+
+const queryClient = new QueryClient();
+
 
 const router = createBrowserRouter([
   {
@@ -47,12 +54,33 @@ const router = createBrowserRouter([
   {
     path : 'resource',
     element : <Resource></Resource>
-  }
+  },
+  {
+    path : 'admin/all-products',
+    element : <AllProducts></AllProducts>
+  },
+  {
+    path : 'admin/add-products',
+    element : <AddProducts></AddProducts>
+  },
+  {
+    path : 'admin/product-management',
+    element : <ProductManagement></ProductManagement>
+  },
 ]);
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
 
+     <QueryClientProvider client={queryClient}>
+        {/* react router dom */}
+
+
        <RouterProvider router={router} />
+
+
+        {/* <Toaster></Toaster> */}
+      </QueryClientProvider>
+
   </StrictMode>,
 )

@@ -39,6 +39,15 @@ const Navbar = () => {
             <li>
               <Link to="/resource"> resource </Link>
             </li>
+            <li>
+              <Link to="/admin/all-products"> all Products </Link>
+            </li>
+            <li>
+              <Link to="admin/add-products">add  product </Link>
+            </li>
+            <li>
+              <Link to="admin/product-management">add  product </Link>
+            </li>
           </ul>
         </div>
 
