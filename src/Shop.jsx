@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import shop_banner_img from "../public/showing-cart-trolley-shopping-online-sign-graphic.jpg";
 import { FaHome, FaListUl } from "react-icons/fa";
-import CategoryFilter from "./CategoryFilter";
+import ProductLines from "./ProductLines";
 import { BsFillGrid3X3GapFill } from "react-icons/bs";
 import BrandCheckbox from "./BrandCheckbox";
 import PriceRangeSlider from "./PriceRangeSlider";
@@ -10,6 +10,11 @@ import SizeFilter from "./SizeFilter";
 import TagsSection from "./TagSection";
 import ProductList from "./ProductList";
 import ShopProductSweper from "./ShopProductSweper";
+import ProductType from "./ProductType";
+import ProductSustainability from "./ProductSustainability";
+import Gender from "./Gender";
+import ProductColor from "./ProductColor";
+import ProductFit from "./ProductFit";
 
 const Shop = () => {
 
@@ -44,17 +49,22 @@ const Shop = () => {
       <div className="product-listing-page m lg:flex gap-10 lg:gap-6 px-6 sm:px-14  lg:px-8 xl:px-20 py-14 ">
         {/*---------------- sidebar-filters */}
         <div className="sidebar-filters w-full grid grid-cols-1   gap-6 xl:gap-0 lg:block lg:w-[25%] ">
-          <CategoryFilter></CategoryFilter>
-            <BrandCheckbox></BrandCheckbox>
+          <ProductLines></ProductLines>
+             <ProductType></ProductType>
+            {/* <BrandCheckbox></BrandCheckbox> */}
+              <ProductSustainability></ProductSustainability>
+                  <Gender></Gender>
              <PriceRangeSlider></PriceRangeSlider>
-              <ColorFilter></ColorFilter>
+              <SizeFilter ></SizeFilter>
+                <ProductColor></ProductColor>
+                 <ProductFit></ProductFit>
+              <ShopProductSweper></ShopProductSweper>
+              {/* <ColorFilter></ColorFilter> */}
                   {/* <div className="col-span-2 md:col-span-1">
                   </div> */}
-                  <SizeFilter ></SizeFilter>
-              <TagsSection></TagsSection>
+              {/* <TagsSection></TagsSection> */}
               {/* <div className="hidden lg:block">
               </div> */}
-              <ShopProductSweper></ShopProductSweper>
              
         </div>
 
