@@ -15,6 +15,7 @@ import ProductSustainability from "./ProductSustainability";
 import Gender from "./Gender";
 import ProductColor from "./ProductColor";
 import ProductFit from "./ProductFit";
+import CommonBanner from "./Components/CommonBanner";
 
 const Shop = () => {
 
@@ -24,26 +25,7 @@ const Shop = () => {
   return (
     <section className="products_shop  ">
       {/* shop banner */}
-      <div
-        className="shop_banner w-full h-[300px] bg-black/30 flex justify-center items-center "
-        style={{
-          backgroundImage: `url(${shop_banner_img})`,
-          backgroundRepeat: "no-repeat",
-          backgroundPosition: "center",
-          backgroundSize: "cover",
-          backgroundBlendMode: "multiply",
-        }}
-      >
-        <div className="shop_heading ">
-          <h1 className="text-[38px] font-semibold text-white capitalize">
-            shop list
-          </h1>
-          <p className="text-[14px] text-white capitalize flex items-center gap-2">
-            {" "}
-            <FaHome></FaHome> home / <span className="primary_text">shop</span>{" "}
-          </p>
-        </div>
-      </div>
+     <CommonBanner title={'shop'} breadcrumb={'shop'} backgroundImage={shop_banner_img}></CommonBanner>
 
       {/* products listing page */}
       <div className="product-listing-page m lg:flex gap-10 lg:gap-6 px-6 sm:px-14  lg:px-8 xl:px-20 py-14 ">

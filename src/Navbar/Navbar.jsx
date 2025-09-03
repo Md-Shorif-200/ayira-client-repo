@@ -3,7 +3,6 @@ import LogIn from "../Authentication/LogIn";
 import Register from "../Authentication/Register";
 import { Link } from "react-router-dom";
 
-
 const Navbar = () => {
   const [isLoginOpen, setIsLoginOpen] = useState(false);
   const [isRegisterOpen, setIsRegisterOpen] = useState(false);
@@ -27,12 +26,18 @@ const Navbar = () => {
         </div>
 
         <div className="navbar-center hidden lg:flex">
-          <ul className="menu menu-horizontal px-1">
-            <li><a href="#">Item 1</a></li>
+          <ul className="menu menu-horizontal px-1  flex ">
             <li>
-
-              <Link to='/product-compare'> compare </Link>
-
+              <Link to="/product-compare"> compare </Link>
+            </li>
+            <li>
+              <Link to="/blog"> blog </Link>
+            </li>
+            <li>
+              <Link to="/colours"> colours </Link>
+            </li>
+            <li>
+              <Link to="/resource"> resource </Link>
             </li>
           </ul>
         </div>

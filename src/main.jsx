@@ -13,6 +13,7 @@ import Register from './Authentication/Register.jsx';
 import ProductCompare from './ProductCompare/ProductCompare.jsx';
 import Colours from './colours/Colours.jsx';
 import Blog from './Blog/Blog.jsx';
+import Resource from './Resource/Resource.jsx';
 
 const router = createBrowserRouter([
   {
@@ -42,6 +43,10 @@ const router = createBrowserRouter([
   {
      path : 'blog',
      element : <Blog></Blog>
+  },
+  {
+    path : 'resource',
+    element : <Resource></Resource>
   }
 ]);
 

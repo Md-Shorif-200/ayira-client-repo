@@ -1,5 +1,6 @@
 import React from 'react';
 import { FaHome, FaTrash } from 'react-icons/fa';
+import CommonBanner from '../Components/CommonBanner';
 
 const ProductCompare = () => {
   const Products = [
@@ -45,17 +46,7 @@ const ProductCompare = () => {
 
   return (
     <div className='compare_section bg-white'>
-      {/* Banner */}
-      <div className="product_compare_banner w-full bg-black flex justify-center items-center py-9">
-        <div className="shop_heading text-center">
-          <h1 className="text-[38px] font-semibold text-white capitalize">
-            Compare
-          </h1>
-          <p className="text-[14px] text-white capitalize flex items-center gap-2 justify-center">
-            <FaHome /> home / <span className="text-orange-500">Compare</span>
-          </p>
-        </div>
-      </div>
+       <CommonBanner title={'compare'} breadcrumb={'compare'}></CommonBanner>
 
       <div className="product_compared_list container mx-auto p-4 sm:p-8">
         {/* START: Responsive table wrapper */}

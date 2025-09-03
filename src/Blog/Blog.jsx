@@ -2,21 +2,13 @@ import React from "react";
 import { FaHome } from "react-icons/fa";
 import { FaTag, FaUser, FaRegComment, FaArrowRight } from "react-icons/fa";
 import BlogPosts from "./BlogPosts";
+import CommonBanner from "../Components/CommonBanner";
 
 const Blog = () => {
   return (
     <div>
       {/* Banner */}
-      <div className="product_compare_banner w-full bg-black flex justify-center items-center  pt-6 pb-9">
-        <div className=" text-center">
-          <h1 className="text-[38px] font-semibold text-white capitalize">
-            Blog
-          </h1>
-          <p className="text-[14px] text-white capitalize flex items-center gap-2 justify-center">
-            <FaHome /> home / <span className="text-orange-500">Blog</span>
-          </p>
-        </div>
-      </div>
+       <CommonBanner title={'blog'} breadcrumb={'blog'}></CommonBanner>
 
       {/* --------- blog caards */}
 
