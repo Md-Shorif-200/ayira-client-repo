@@ -19,6 +19,8 @@ import AddProducts from './Admin-Dashboard/Products/AddProducts.jsx';
 import AllProducts from './Admin-Dashboard/Products/AllProducts.jsx';
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 import ProductBrand from './Admin-Dashboard/Product Management/ProductBrand.jsx';
+import CookiePage from './Cookie/CookiePage.jsx';
+import Privacy from './Cookie/Privacy/Privacy.jsx';
 
 const queryClient = new QueryClient();
 
@@ -68,6 +70,14 @@ const router = createBrowserRouter([
     path : 'admin/product-management',
     element : <ProductBrand></ProductBrand>
   },
+  {
+    path : 'cookie',
+    element : <CookiePage></CookiePage>
+  },
+  {
+    path : 'privacy-policy',
+    element : <Privacy></Privacy>
+  }
 ]);
 
 createRoot(document.getElementById('root')).render(
