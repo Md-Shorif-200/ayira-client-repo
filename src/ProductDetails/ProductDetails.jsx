@@ -157,7 +157,7 @@ const ProductDetails = () => {
             </div>
 
             {/* Main Image */}
-            <div className="relative flex-1 overflow-hidden group rounded-md shadow-sm">
+            <div className="relative flex-1 overflow-hidden group rounded-md shadow-sm bg-amber-200 h-[350px] sm:h-[450px] ">
               <img
                 src={selectedImage}
                 alt={product.title}

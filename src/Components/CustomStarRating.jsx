@@ -12,7 +12,7 @@ const CustomStarRating = ({ numberOfStars = 5 }) => {
         return (
           <FaStar
             key={index}
-            size={10}
+            size={12}
             className="cursor-pointer transition-colors"
             color={
               starValue <= (hover || rating)
