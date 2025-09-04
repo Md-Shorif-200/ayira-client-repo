@@ -1,21 +1,10 @@
 import React, { useState } from "react";
 import shop_banner_img from "../public/showing-cart-trolley-shopping-online-sign-graphic.jpg";
 import { FaHome, FaListUl } from "react-icons/fa";
-import ProductLines from "./ProductLines";
+import ProductLines from "./ShopCategory/ProductLines";
 import { BsFillGrid3X3GapFill } from "react-icons/bs";
-import BrandCheckbox from "./BrandCheckbox";
-import PriceRangeSlider from "./PriceRangeSlider";
-import ColorFilter from "./ColorFilter";
-import SizeFilter from "./SizeFilter";
-import TagsSection from "./TagSection";
-import ProductList from "./ProductList";
-import ShopProductSweper from "./ShopProductSweper";
-import ProductType from "./ProductType";
-import ProductSustainability from "./ProductSustainability";
-import Gender from "./Gender";
-import ProductColor from "./ProductColor";
-import ProductFit from "./ProductFit";
-import CommonBanner from "./Components/CommonBanner";
+
+import CommonBanner from "../Components/CommonBanner";
 
 const Shop = () => {
 

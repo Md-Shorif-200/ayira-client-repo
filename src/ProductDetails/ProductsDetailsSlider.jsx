@@ -6,7 +6,8 @@ import { Navigation } from "swiper/modules";
 import { TfiLayoutLineSolid } from "react-icons/tfi";
 import { IoDiamondOutline } from "react-icons/io5";
 import { HiArrowLongLeft, HiArrowLongRight } from "react-icons/hi2";
-import SweperProductCard from "../SweperProductCard";
+import SweperProductCard from "./SweperProductCard";
+
 
 export default function ProductsDetailsSlider() {
   const prevRef = useRef(null);
