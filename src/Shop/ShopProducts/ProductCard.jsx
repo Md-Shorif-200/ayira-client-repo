@@ -2,7 +2,8 @@ import React from "react";
 import { FaRegHeart, FaSearchPlus, FaShoppingCart } from "react-icons/fa";
 import { RiLoopRightLine } from "react-icons/ri";
 import { Link } from "react-router-dom";
-import CustomStarRating from "./Components/CustomStarRating";
+import CustomStarRating from "../../Components/CustomStarRating";
+
 
 const ProductCard = ({ product, viewType }) => {
   // Conditional rendering based on viewType

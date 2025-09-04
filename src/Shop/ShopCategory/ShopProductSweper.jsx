@@ -3,10 +3,9 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/navigation";
 import { Navigation } from "swiper/modules";
-import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
-import SweperProductCard from "./SweperProductCard";
 import { IoIosArrowBack } from "react-icons/io";
  import { IoIosArrowForward } from "react-icons/io";
+import SweperProductCard from "../../ProductDetails/SweperProductCard";
 
 
 export default function ShopProductSweper() {

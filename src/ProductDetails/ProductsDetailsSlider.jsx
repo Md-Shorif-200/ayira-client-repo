@@ -9,6 +9,7 @@ import { HiArrowLongLeft, HiArrowLongRight } from "react-icons/hi2";
 import SweperProductCard from "./SweperProductCard";
 
 
+
 export default function ProductsDetailsSlider() {
   const prevRef = useRef(null);
   const nextRef = useRef(null);
