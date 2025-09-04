@@ -15,9 +15,10 @@ import Colours from './colours/Colours.jsx';
 import Blog from './Blog/Blog.jsx';
 import Resource from './Resource/Resource.jsx';
 import AddProducts from './Admin-Dashboard/Products/AddProducts.jsx';
-import ProductManagement from './Admin-Dashboard/Product Management/ProductManagement.jsx';
+// import ProductManagement from './Admin-Dashboard/Product Management/ProductManagement.jsx';
 import AllProducts from './Admin-Dashboard/Products/AllProducts.jsx';
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
+import ProductBrand from './Admin-Dashboard/Product Management/ProductBrand.jsx';
 
 const queryClient = new QueryClient();
 
@@ -65,7 +66,7 @@ const router = createBrowserRouter([
   },
   {
     path : 'admin/product-management',
-    element : <ProductManagement></ProductManagement>
+    element : <ProductBrand></ProductBrand>
   },
 ]);
 

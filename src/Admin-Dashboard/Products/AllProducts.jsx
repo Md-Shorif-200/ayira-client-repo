@@ -27,7 +27,7 @@ const AllProducts = () => {
 
 
   return (
-    <main className="p-4 w-[70%] mx-auto">
+    <main className="p-4  md:w-[70%] mx-auto">
       {/* title */}
       <div className="title capitalize text-[30px] font-semibold my-4 ">
         <h1>All Products</h1>
