@@ -27,6 +27,7 @@ import AddProductColour from './Admin-Dashboard/Product Management/AddProductCol
 import AddProductFit from './Admin-Dashboard/Product Management/AddProductFit.jsx';
 import AddSize from './Admin-Dashboard/Product Management/AddSize.jsx';
 import AddProductReviews from './Admin-Dashboard/Product Management/AddProductReviews.jsx';
+import AddPrice from './Admin-Dashboard/Product Management/AddPrice.jsx';
 
 const queryClient = new QueryClient();
 
@@ -107,6 +108,10 @@ const router = createBrowserRouter([
   {
     path : 'add-reviews',
     element : <AddProductReviews></AddProductReviews>
+  },
+    {
+    path : 'add-price',
+    element : <AddPrice></AddPrice>
   }
 ]);
 
