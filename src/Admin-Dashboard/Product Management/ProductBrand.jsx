@@ -19,11 +19,11 @@ const ProductBrand = () => {
   // Common styles
   const inputStyle =
     "w-full p-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-yellow-500";
-  const labelStyle = "block text-sm font-medium text-gray-700 mb-1";
+  const labelStyle = "block text-sm font-medium text-gray-700 mb-3";
 
   return (
     <div className="min-h-screen flex items-center justify-center p-4">
-      <div className="max-w-4xl w-full p-8">
+      <div className="max-w-6xl w-full p-8">
         <h1 className="text-[30px] font-bold text-gray-800 mb-6">
           Add Product Brand
         </h1>
@@ -32,38 +32,13 @@ const ProductBrand = () => {
           onSubmit={handleSubmit(onSubmit)}
           className="space-y-6 p-6 border border-gray-200 rounded-lg"
         >
-          {/* Brand Title */}
-          <div>
-            <label htmlFor="title" className={labelStyle}>
-              Brand Title
-            </label>
-            <input
-              id="title"
-              type="text"
-              {...register("title")}
-              className={inputStyle}
-              placeholder="e.g. Nike, Adidas, Puma"
-            />
-          </div>
+    
 
-          {/* Brand Description */}
-          <div>
-            <label htmlFor="description" className={labelStyle}>
-              Description
-            </label>
-            <textarea
-              id="description"
-              {...register("description")}
-              className={inputStyle}
-              placeholder="Write a short brand description..."
-              rows="4"
-            />
-          </div>
 
           {/* Brand Image Upload */}
           <div>
             <label htmlFor="brand-img" className={labelStyle}>
-              Upload Brand Logo / Image
+              Upload Brand Logo
             </label>
             <input
               id="brand-img"

@@ -21,6 +21,12 @@ import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 import ProductBrand from './Admin-Dashboard/Product Management/ProductBrand.jsx';
 import CookiePage from './Cookie/CookiePage.jsx';
 import Privacy from './Cookie/Privacy/Privacy.jsx';
+import AddCategory from './Admin-Dashboard/Product Management/AddCategory.jsx';
+import AddSubCategory from './Admin-Dashboard/Product Management/AddSubCategory.jsx';
+import AddProductColour from './Admin-Dashboard/Product Management/AddProductColour.jsx';
+import AddProductFit from './Admin-Dashboard/Product Management/AddProductFit.jsx';
+import AddSize from './Admin-Dashboard/Product Management/AddSize.jsx';
+import AddProductReviews from './Admin-Dashboard/Product Management/AddProductReviews.jsx';
 
 const queryClient = new QueryClient();
 
@@ -31,7 +37,7 @@ const router = createBrowserRouter([
     element: <App></App>,
   },
   {
-    path : '/product-details',
+    path : '/product-details/:id',
     element : <ProductDetails></ProductDetails>
   },
   {
@@ -77,6 +83,30 @@ const router = createBrowserRouter([
   {
     path : 'privacy-policy',
     element : <Privacy></Privacy>
+  },
+  {
+    path : 'add-category',
+    element : <AddCategory></AddCategory>
+  },
+  {
+    path : 'add-subCategory',
+    element : <AddSubCategory></AddSubCategory>
+  },
+  {
+    path : 'add-colour',
+    element : <AddProductColour></AddProductColour>
+  },
+  {
+    path : 'add-productFit',
+    element : <AddProductFit></AddProductFit>
+  },
+  {
+    path : 'add-productSize',
+    element : <AddSize></AddSize>
+  },
+  {
+    path : 'add-reviews',
+    element : <AddProductReviews></AddProductReviews>
   }
 ]);
 

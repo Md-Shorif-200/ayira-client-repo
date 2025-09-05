@@ -1,33 +1,30 @@
-// import React from 'react';
-
-// import { useQuery } from '@tanstack/react-query';
-// import useAxiosSecure from './useAxiosSecure';
-
-// const useAllProducts = () => {
-//     const axiosSecure = useAxiosSecure();
-
-//     const {data : allProducts = [],refetch,isLoading} = useQuery({
-//                 queryKey : ['allProducts'],
-//                 queryFn : async () => {
-//                       const response = await axiosSecure.get('/allProducts');
-//                       return response.data;
-//                 }
-//     })
-
-//     return [allProducts,refetch,isLoading]
-// };
-
-// export default useAllProducts;
-
-
-import React from 'react';
+// src/hooks/useAllProducts.js
+import { useState, useEffect } from "react";
 
 const useAllProducts = () => {
-    return (
-        <div>
-            
-        </div>
-    );
+  const [products, setProducts] = useState([]);
+
+
+  useEffect(() => {
+    fetch("/products.json")
+      .then((response) => {
+        if (!response.ok) {
+          throw new Error("Failed to fetch products");
+        }
+        return response.json();
+      })
+      .then((data) => {
+        setProducts(data);
+
+      })
+      .catch((err) => {
+console.log(err);
+
+
+      });
+  }, []);
+
+  return { products};
 };
 
 export default useAllProducts;

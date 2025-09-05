@@ -1,434 +1,177 @@
 [
   {
     "id": 1,
-    "image": "https://i.ibb.co.com/ccxBNWnG/images-26.jpg",
-    "title": "Women floral dress",
-    "price": "$235.00",
+    "title": "In sint eaque sapien",
+    "price": "369",
+    "mainImage": "",
+    "ImageGallery": [
+      { "img-1": "" },
+      { "img-2": "" },
+      { "img-3": "" },
+      { "img-4": "" },
+      { "img-5": "" },
+      { "img-6": "" },
+      { "img-7": "" }
+    ],
+    "description": "Rerum iure exercitat",
+    "gender": "male",
+    "fit": "loose-fit",
+    "size": "s",
+    "colors": "black",
+    "product_type": "t-shirt",
+    "product_lines": "casual-wear",
+    "sustainability": "standard",
     "rating": 4.5,
-    "reviews": 212,
-    "colors": ["#4CAF50", "#E91E63"]
+    "reviews": 212
   },
   {
     "id": 2,
-    "image": "https://i.ibb.co.com/Ndv7Y9k5/images-25.jpg",
-    "title": "Women denim jacket",
-    "price": "$249.00",
+    "title": "In sint eaque sapien",
+    "price": "369",
+    "mainImage": "",
+    "ImageGallery": [
+      { "img-1": "" },
+      { "img-2": "" },
+      { "img-3": "" },
+      { "img-4": "" },
+      { "img-5": "" },
+      { "img-6": "" },
+      { "img-7": "" }
+    ],
+    "description": "Rerum iure exercitat",
+    "gender": "male",
+    "fit": "loose-fit",
+    "size": "s",
+    "colors": "black",
+    "product_type": "t-shirt",
+    "product_lines": "casual-wear",
+    "sustainability": "standard",
     "rating": 4.0,
-    "reviews": 4,
-    "colors": ["#607D8B", "#B0BEC5", "#90A4AE"]
+    "reviews": 4
   },
   {
     "id": 3,
-    "image": "https://i.ibb.co.com/cXKVvKmw/images-24.jpg",
-    "title": "Women floral dress",
-    "price": "$299.00",
+    "title": "In sint eaque sapien",
+    "price": "369",
+    "mainImage": "",
+    "ImageGallery": [
+      { "img-1": "" },
+      { "img-2": "" },
+      { "img-3": "" },
+      { "img-4": "" },
+      { "img-5": "" },
+      { "img-6": "" },
+      { "img-7": "" }
+    ],
+    "description": "Rerum iure exercitat",
+    "gender": "male",
+    "fit": "loose-fit",
+    "size": "s",
+    "colors": "black",
+    "product_type": "t-shirt",
+    "product_lines": "casual-wear",
+    "sustainability": "standard",
     "rating": 4.5,
-    "reviews": 25,
-    "colors": ["#607D8B", "#B0BEC5", "#90A4AE"]
+    "reviews": 25
   },
   {
     "id": 4,
-    "image": "https://i.ibb.co.com/6755xFjp/images-23.jpg",
-    "title": "Elegant evening gown",
-    "price": "$350.00",
+    "title": "In sint eaque sapien",
+    "price": "369",
+    "mainImage": "",
+    "ImageGallery": [
+      { "img-1": "" },
+      { "img-2": "" },
+      { "img-3": "" },
+      { "img-4": "" },
+      { "img-5": "" },
+      { "img-6": "" },
+      { "img-7": "" }
+    ],
+    "description": "Rerum iure exercitat",
+    "gender": "male",
+    "fit": "loose-fit",
+    "size": "s",
+    "colors": "black",
+    "product_type": "t-shirt",
+    "product_lines": "casual-wear",
+    "sustainability": "standard",
     "rating": 5.0,
-    "reviews": 89,
-    "colors": ["#880E4F", "#F06292"]
+    "reviews": 89
   },
   {
     "id": 5,
-    "image": "https://i.ibb.co.com/MDQsz42t/images-22.jpg",
-    "title": "Classic leather bag",
-    "price": "$150.00",
+    "title": "In sint eaque sapien",
+    "price": "369",
+    "mainImage": "",
+    "ImageGallery": [
+      { "img-1": "" },
+      { "img-2": "" },
+      { "img-3": "" },
+      { "img-4": "" },
+      { "img-5": "" },
+      { "img-6": "" },
+      { "img-7": "" }
+    ],
+    "description": "Rerum iure exercitat",
+    "gender": "male",
+    "fit": "loose-fit",
+    "size": "s",
+    "colors": "black",
+    "product_type": "t-shirt",
+    "product_lines": "casual-wear",
+    "sustainability": "standard",
     "rating": 4.0,
-    "reviews": 110,
-    "colors": ["#4E342E", "#D7CCC8"]
+    "reviews": 110
   },
   {
     "id": 6,
-    "image": "https://i.ibb.co.com/6RYWBnYS/images-21.jpg",
-    "title": "Casual t-shirt",
-    "price": "$25.00",
+    "title": "In sint eaque sapien",
+    "price": "369",
+    "mainImage": "",
+    "ImageGallery": [
+      { "img-1": "" },
+      { "img-2": "" },
+      { "img-3": "" },
+      { "img-4": "" },
+      { "img-5": "" },
+      { "img-6": "" },
+      { "img-7": "" }
+    ],
+    "description": "Rerum iure exercitat",
+    "gender": "male",
+    "fit": "loose-fit",
+    "size": "s",
+    "colors": "black",
+    "product_type": "t-shirt",
+    "product_lines": "casual-wear",
+    "sustainability": "standard",
     "rating": 4.5,
-    "reviews": 320,
-    "colors": ["#FFC107", "#757575", "#000000"]
+    "reviews": 320
   },
   {
     "id": 7,
-    "image": "https://i.ibb.co.com/8D9wv2zj/images-20.jpg",
-    "title": "Men's formal shirt",
-    "price": "$55.00",
+    "title": "In sint eaque sapien",
+    "price": "369",
+    "mainImage": "",
+    "ImageGallery": [
+      { "img-1": "" },
+      { "img-2": "" },
+      { "img-3": "" },
+      { "img-4": "" },
+      { "img-5": "" },
+      { "img-6": "" },
+      { "img-7": "" }
+    ],
+    "description": "Rerum iure exercitat",
+    "gender": "male",
+    "fit": "loose-fit",
+    "size": "s",
+    "colors": "black",
+    "product_type": "t-shirt",
+    "product_lines": "casual-wear",
+    "sustainability": "standard",
     "rating": 4.0,
-    "reviews": 95,
-    "colors": ["#BDBDBD", "#7B1FA2"]
-  },
-  {
-    "id": 8,
-    "image": "https://i.ibb.co.com/mCp31Kxp/images-19.jpg",
-    "title": "Running shoes",
-    "price": "$120.00",
-    "rating": 5.0,
-    "reviews": 156,
-    "colors": ["#FF5722", "#424242"]
-  },
-  {
-    "id": 9,
-    "image": "https://i.ibb.co.com/hFYbX2gc/images-18.jpg",
-    "title": "Winter coat",
-    "price": "$280.00",
-    "rating": 4.5,
-    "reviews": 75,
-    "colors": ["#546E7A", "#CFD8DC"]
-  },
-  {
-    "id": 10,
-    "image": "https://i.ibb.co.com/F4XfykPw/images-17.jpg",
-    "title": "Printed maxi dress",
-    "price": "$195.00",
-    "rating": 4.0,
-    "reviews": 48,
-    "colors": ["#4CAF50", "#FFEB3B"]
-  },
-  {
-    "id": 11,
-    "image": "https://i.ibb.co.com/GvL5d8WT/images-16.jpg",
-    "title": "Slim fit jeans",
-    "price": "$65.00",
-    "rating": 4.5,
-    "reviews": 230,
-    "colors": ["#2196F3", "#607D8B"]
-  },
-  {
-    "id": 12,
-    "image": "https://i.ibb.co.com/jkZJDVP8/download-13.jpg",
-    "title": "Striped polo shirt",
-    "price": "$40.00",
-    "rating": 4.0,
-    "reviews": 180,
-    "colors": ["#FFC107", "#009688"]
-  },
-  {
-    "id": 13,
-    "image": "https://i.ibb.co.com/v6Nxdsm4/download-12.jpg",
-    "title": "Hooded sweatshirt",
-    "price": "$70.00",
-    "rating": 4.5,
-    "reviews": 150,
-    "colors": ["#5D4037", "#9E9E9E"]
-  },
-  {
-    "id": 14,
-    "image": "https://i.ibb.co.com/MDwHJn67/images-15.jpg",
-    "title": "Summer shorts",
-    "price": "$30.00",
-    "rating": 4.0,
-    "reviews": 99,
-    "colors": ["#CDDC39", "#4CAF50"]
-  },
-  {
-    "id": 15,
-    "image": "https://i.ibb.co.com/tTWnbgYz/images-14.jpg",
-    "title": "High-heeled sandals",
-    "price": "$85.00",
-    "rating": 4.5,
-    "reviews": 55,
-    "colors": ["#E91E63", "#FF8A65"]
-  },
-  {
-    "id": 16,
-    "image": "https://i.ibb.co.com/nN9SvHgh/images-13.jpg",
-    "title": "Classic trench coat",
-    "price": "$250.00",
-    "rating": 5.0,
-    "reviews": 32,
-    "colors": ["#A1887F", "#F5F5DC"]
-  },
-  {
-    "id": 17,
-    "image": "https://i.ibb.co.com/B2wPp7cR/images-12.jpg",
-    "title": "Sporty track suit",
-    "price": "$110.00",
-    "rating": 4.5,
-    "reviews": 68,
-    "colors": ["#000000", "#FF5722"]
-  },
-  {
-    "id": 18,
-    "image": "https://i.ibb.co.com/ycRGDB9q/images-11.jpg",
-    "title": "Boho chic blouse",
-    "price": "$50.00",
-    "rating": 4.0,
-    "reviews": 115,
-    "colors": ["#8BC34A", "#CDDC39"]
-  },
-  {
-    "id": 19,
-    "image": "https://i.ibb.co.com/TMVpS1rL/images-10.jpg",
-    "title": "Knitted sweater",
-    "price": "$90.00",
-    "rating": 4.5,
-    "reviews": 190,
-    "colors": ["#9E9E9E", "#CFD8DC"]
-  },
-  {
-    "id": 20,
-    "image": "https://i.ibb.co.com/vxXP2Mj7/download-11.jpg",
-    "title": "Wool scarf",
-    "price": "$45.00",
-    "rating": 4.0,
-    "reviews": 85,
-    "colors": ["#5D4037", "#BCAAA4"]
-  },
-  {
-    "id": 21,
-    "image": "https://i.ibb.co.com/xtVfVM5S/download-10.jpg",
-    "title": "Office blazer",
-    "price": "$125.00",
-    "rating": 4.5,
-    "reviews": 40,
-    "colors": ["#263238", "#CFD8DC"]
-  },
-  {
-    "id": 22,
-    "image": "https://i.ibb.co.com/BVNFvdxJ/download-9.jpg",
-    "title": "Pencil skirt",
-    "price": "$60.00",
-    "rating": 4.0,
-    "reviews": 70,
-    "colors": ["#424242", "#BDBDBD"]
-  },
-  {
-    "id": 23,
-    "image": "https://i.ibb.co.com/1YZNgXGx/download-8.jpg",
-    "title": "Denim shorts",
-    "price": "$40.00",
-    "rating": 4.5,
-    "reviews": 130,
-    "colors": ["#2196F3", "#607D8B"]
-  },
-  {
-    "id": 24,
-    "image": "https://i.ibb.co.com/fYwbDqRy/images-9.jpg",
-    "title": "Sleeveless top",
-    "price": "$30.00",
-    "rating": 4.0,
-    "reviews": 205,
-    "colors": ["#FF8A65", "#FFCCBC"]
-  },
-  {
-    "id": 25,
-    "image": "https://i.ibb.co.com/DPJZ4RvX/images-8.jpg",
-    "title": "Chiffon dress",
-    "price": "$180.00",
-    "rating": 4.5,
-    "reviews": 65,
-    "colors": ["#FFEB3B", "#F5F5DC"]
-  },
-  {
-    "id": 26,
-    "image": "https://i.ibb.co.com/Sw6BYf35/images-7.jpg",
-    "title": "Classic black boots",
-    "price": "$140.00",
-    "rating": 5.0,
-    "reviews": 45,
-    "colors": ["#000000", "#424242"]
-  },
-  {
-    "id": 27,
-    "image": "https://i.ibb.co.com/mC4CfyMn/images-6.jpg",
-    "title": "Graphic t-shirt",
-    "price": "$35.00",
-    "rating": 4.0,
-    "reviews": 280,
-    "colors": ["#4CAF50", "#FFC107"]
-  },
-  {
-    "id": 28,
-    "image": "https://i.ibb.co.com/nNgrCWc3/images-4.jpg",
-    "title": "Men's polo shirt",
-    "price": "$50.00",
-    "rating": 4.5,
-    "reviews": 170,
-    "colors": ["#2196F3", "#607D8B"]
-  },
-  {
-    "id": 29,
-    "image": "https://i.ibb.co.com/LDnXV739/download-7.jpg",
-    "title": "Leather belt",
-    "price": "$30.00",
-    "rating": 4.0,
-    "reviews": 90,
-    "colors": ["#795548", "#8D6E63"]
-  },
-  {
-    "id": 30,
-    "image": "https://i.ibb.co.com/hxX6h2gn/download-6.jpg",
-    "title": "Running leggings",
-    "price": "$60.00",
-    "rating": 4.5,
-    "reviews": 110,
-    "colors": ["#000000", "#424242"]
-  },
-  {
-    "id": 31,
-    "image": "https://i.ibb.co.com/RkhGWKRC/images-2.jpg",
-    "title": "Bomber jacket",
-    "price": "$130.00",
-    "rating": 4.0,
-    "reviews": 55,
-    "colors": ["#34495E", "#E74C3C"]
-  },
-  {
-    "id": 32,
-    "image": "https://i.ibb.co.com/6JXjVTHX/images-1.jpg",
-    "title": "Cargo pants",
-    "price": "$75.00",
-    "rating": 4.5,
-    "reviews": 145,
-    "colors": ["#795548", "#A1887F"]
-  },
-  {
-    "id": 33,
-    "image": "https://i.ibb.co.com/rKyLwWkJ/images.jpg",
-    "title": "Knit cardigan",
-    "price": "$85.00",
-    "rating": 4.0,
-    "reviews": 60,
-    "colors": ["#BCAAA4", "#CFD8DC"]
-  },
-  {
-    "id": 34,
-    "image": "https://i.ibb.co.com/wFK65vWM/download-5.jpg",
-    "title": "Denim skirt",
-    "price": "$50.00",
-    "rating": 4.5,
-    "reviews": 98,
-    "colors": ["#2196F3", "#607D8B"]
-  },
-  {
-    "id": 35,
-    "image": "https://i.ibb.co.com/4ZLJrvdw/download-4.jpg",
-    "title": "Wool blend coat",
-    "price": "$295.00",
-    "rating": 5.0,
-    "reviews": 42,
-    "colors": ["#5D4037", "#BCAAA4"]
-  },
-  {
-    "id": 36,
-    "image": "https://i.ibb.co.com/1G2Y5ffK/download-3.jpg",
-    "title": "Formal trousers",
-    "price": "$90.00",
-    "rating": 4.5,
-    "reviews": 75,
-    "colors": ["#424242", "#BDBDBD"]
-  },
-  {
-    "id": 37,
-    "image": "https://i.ibb.co.com/q30p1zVz/download-2.jpg",
-    "title": "Printed blouse",
-    "price": "$60.00",
-    "rating": 4.0,
-    "reviews": 130,
-    "colors": ["#4CAF50", "#FFC107"]
-  },
-  {
-    "id": 38,
-    "image": "https://i.ibb.co.com/ccxBNWnG/images-26.jpg",
-    "title": "Silk scarf",
-    "price": "$30.00",
-    "rating": 4.5,
-    "reviews": 50,
-    "colors": ["#E91E63", "#FFC107"]
-  },
-  {
-    "id": 39,
-    "image": "https://i.ibb.co.com/Ndv7Y9k5/images-25.jpg",
-    "title": "Casual jumpsuit",
-    "price": "$115.00",
-    "rating": 4.0,
-    "reviews": 88,
-    "colors": ["#607D8B", "#B0BEC5"]
-  },
-  {
-    "id": 40,
-    "image": "https://i.ibb.co.com/cXKVvKmw/images-24.jpg",
-    "title": "Leather jacket",
-    "price": "$350.00",
-    "rating": 5.0,
-    "reviews": 12,
-    "colors": ["#4E342E", "#D7CCC8"]
-  },{
-    "id": 41,
-    "image": "https://i.ibb.co.com/F4XfykPw/images-17.jpg",
-    "title": "Printed maxi dress",
-    "price": "$195.00",
-    "rating": 4.0,
-    "reviews": 48,
-    "colors": ["#4CAF50", "#FFEB3B"]
-  },
-  {
-    "id": 42,
-    "image": "https://i.ibb.co.com/GvL5d8WT/images-16.jpg",
-    "title": "Slim fit jeans",
-    "price": "$65.00",
-    "rating": 4.5,
-    "reviews": 230,
-    "colors": ["#2196F3", "#607D8B"]
-  },
-  {
-    "id": 43,
-    "image": "https://i.ibb.co.com/jkZJDVP8/download-13.jpg",
-    "title": "Striped polo shirt",
-    "price": "$40.00",
-    "rating": 4.0,
-    "reviews": 180,
-    "colors": ["#FFC107", "#009688"]
-  },
-  {
-    "id": 44,
-    "image": "https://i.ibb.co.com/v6Nxdsm4/download-12.jpg",
-    "title": "Hooded sweatshirt",
-    "price": "$70.00",
-    "rating": 4.5,
-    "reviews": 150,
-    "colors": ["#5D4037", "#9E9E9E"]
-  },
-  {
-    "id": 45,
-    "image": "https://i.ibb.co.com/MDwHJn67/images-15.jpg",
-    "title": "Summer shorts",
-    "price": "$30.00",
-    "rating": 4.0,
-    "reviews": 99,
-    "colors": ["#CDDC39", "#4CAF50"]
-  },
-  {
-    "id": 46,
-    "image": "https://i.ibb.co.com/tTWnbgYz/images-14.jpg",
-    "title": "High-heeled sandals",
-    "price": "$85.00",
-    "rating": 4.5,
-    "reviews": 55,
-    "colors": ["#E91E63", "#FF8A65"]
-  },
-  {
-    "id": 47,
-    "image": "https://i.ibb.co.com/nN9SvHgh/images-13.jpg",
-    "title": "Classic trench coat",
-    "price": "$250.00",
-    "rating": 5.0,
-    "reviews": 32,
-    "colors": ["#A1887F", "#F5F5DC"]
-  },
-  {
-    "id": 48,
-    "image": "https://i.ibb.co.com/B2wPp7cR/images-12.jpg",
-    "title": "Sporty track suit",
-    "price": "$110.00",
-    "rating": 4.5,
-    "reviews": 68,
-    "colors": ["#000000", "#FF5722"]
+    "reviews": 95
   }
-
 ]

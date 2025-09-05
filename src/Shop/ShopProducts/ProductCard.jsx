@@ -29,18 +29,18 @@ const ProductCard = ({ product, viewType }) => {
         <div className="flex flex-col justify-between flex-grow mt-4 md:mt-0">
           <div>
             {/* Colors */}
-            {product.colors?.length > 0 && (
+            {/* {product.colors?.length > 0 && (
               <div className="flex space-x-2 mb-3">
                 {product.colors.map((color, index) => (
-                  <span
-                    key={index}
-                    className="w-4 h-4 rounded-sm border border-gray-300 shadow-sm"
-                    style={{ backgroundColor: color }}
-                  ></span>
                 ))}
               </div>
-            )}
+            )} */}
 
+            <span
+              // key={index}
+              className="w-4 h-4 rounded-sm border border-gray-300 shadow-sm"
+              // style={{ backgroundColor: color }}
+            ></span>
             {/* Title + Rating */}
             <h3 className="text-lg md:text-xl font-semibold text-gray-800 group-hover:text-[#ffbb42] transition-colors line-clamp-2">
               {product.title}
@@ -59,7 +59,7 @@ const ProductCard = ({ product, viewType }) => {
                 Available Size: <span className="font-medium">L</span>
               </p>
               <p className="text-lg md:text-xl font-bold text-gray-900 mt-1">
-                {product.price}
+                ${product.price}
               </p>
             </div>
 
@@ -84,7 +84,7 @@ const ProductCard = ({ product, viewType }) => {
   // Renders the default grid view layout (আপনার অনুরোধ অনুযায়ী পরিবর্তিত)
   return (
     <Link
-      to={"/product-details"}
+      to={`/product-details/${product.id}`}
       key={product.id}
       className="group w-full bg-white rounded-lg overflow-hidden shadow-md hover:shadow-lg transition-shadow flex flex-col"
     >
@@ -97,13 +97,21 @@ const ProductCard = ({ product, viewType }) => {
       <div className="pt-2 pb-3 px-4 flex flex-col flex-grow">
         {/* colors  */}
         <div className="flex space-x-1 mb-1">
-          {product.colors.map((color, index) => (
+          {/* {product.colors.map((color, index) => (
             <span
               key={index}
               className="w-4 h-4 rounded-sm border border-gray-300"
               style={{ backgroundColor: color }}
             ></span>
-          ))}
+          ))} */}
+
+             <span
+                    // key={index}
+                    className="w-4 h-4 rounded-sm border border-gray-300 shadow-sm"
+                    // style={{ backgroundColor: color }}
+                  ></span>
+
+
         </div>
 
         {/* Title */}
@@ -128,7 +136,7 @@ const ProductCard = ({ product, viewType }) => {
 
         {/* Price & Colors */}
         <div className="flex items-center justify-between mb-4">
-          <p className="text-lg font-bold text-gray-900">{product.price}</p>
+          <p className="text-lg font-bold text-gray-900">${product.price}</p>
         </div>
 
         {/* Action Buttons */}
